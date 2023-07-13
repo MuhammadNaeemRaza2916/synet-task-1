@@ -1,0 +1,365 @@
+/* narbaar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    color: #141F2B;
+}
+html {
+    font-size: 16px;
+}
+body {
+    overflow-x: hidden;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.navbaar {
+    background-color: #fff;
+    padding-top: 2rem;
+    width: 100vw;
+}
+
+.navbaar-icon {
+    margin-left: 1.8rem;
+    width: 13.5rem;
+    height: auto;
+}
+
+.navList {
+    display: flex;
+}
+
+.navList li {
+    list-style-type: none;
+}
+
+.navbaar-form {
+    position: relative;
+    right: 0.6rem;
+    width: 45vw;
+}
+
+.navbaar-input[type=search] {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    /* background-color: white; */
+    background-image: url('../IMG/search.png');
+    background-size: 1.2rem;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.navDropDown {
+    display: flex;
+    position: absolute;
+    left: 78vw;
+    top: 2.2rem;
+}
+.nav-link {
+    /* position: relative; */
+    /* left: 150px;
+    bottom: 8px; */
+    /* margin-left: 150px; */
+    z-index: 4;
+
+} 
+.nav-link span {
+    font-weight: 600;
+}
+
+.navBaarButton {
+    font-size: 1rem;
+      
+    width: 8.855rem;
+    height: 2.8rem;
+    padding: 0.4rem 0.5rem;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #336AEA;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    z-index: 5;
+}
+
+.navProfile {
+    position: relative;
+    bottom: 0.2rem;
+    width: 2.5rem;
+}
+
+.hr1 {
+    color: #62749f;
+    background-color: #336AEA;
+}
+
+.container2 {
+    position: relative;
+    margin-top: -18px;
+    display: flex;
+    
+}
+
+.heroSectionleftBaar {
+    width: 16.1em !important;
+    height: 47.8rem;
+    background-color: #EBF0FD;
+}
+
+.heroSectionrightBaar {
+    width: 8vw;
+    height: 47.8rem;
+}
+
+.heroSectionOrder {
+    width: 57vw;
+    /* height: 40rem; */
+    padding: 1.5rem 1rem;
+    margin-right: 2rem;
+}
+
+.mapouter {
+    width: 100% !important;
+    height: 30rem !important;
+}
+
+.leftBaarButton2 {
+    width: 11.5rem;
+    font-size: small;
+    font-weight: 500;
+    justify-content: center;
+    margin: 2rem 1.8rem;
+    padding: 0.4rem 0.129rem;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-color: #336AEA;
+    color: #336AEA;
+    border-radius: 0.5rem;
+}
+
+.dashboard {
+    padding-left: 2rem;
+    color: #336AEA;
+    padding-bottom: 0.6rem;
+}
+.dashboard h6{
+    padding-bottom: 1.2rem;
+    font-weight: 600;
+    color: #141F2B;
+    font-size: 1.125rem;
+}
+
+.dashboard ul li {
+    color: #141F2B;
+    list-style-type: none;
+    position: relative;
+    right: 1.5rem;
+}
+.dashboard ul li:last-child {
+    padding-top: 1.3rem;
+}
+.dashboard ul li:hover {
+    color: #336AEA;
+}
+
+.setting {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+.setting h6{
+    padding-bottom: 1rem;
+    font-weight: 600;
+    color: #141F2B;
+    font-size: 1.125rem;
+}
+
+.setting ul li {
+    color: #141F2B;
+    list-style-type: none;
+    position: relative;
+    right: 1.5rem;
+}
+
+.setting ul li:hover {
+    color: #336AEA;
+}
+
+.footer {
+    color: #141F2B;
+    font-size: 0.825rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+    padding-bottom: 2.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    color: #000;
+}
+.orderSection {
+    overflow-x: hidden;
+    width: inherit;
+    height: 45rem;
+    border-radius: 1rem;
+    border: 1px solid #B3B6DA;
+    background-color: transparent;
+    /* padding: 10rem; */
+}
+.orderSection hr {
+    opacity: 0.1;
+    width: 97%;
+    margin-left: 0.5rem;
+    background: #E0E0E0;
+}
+.orders ul {
+    display: flex;
+    padding-top: 1.5rem;
+}
+.orders ul li {
+    list-style-type: none;
+    margin-left: 1rem;
+}
+.orders ul li h5 {
+    position: relative;
+    right: 1.2rem;
+    font-weight: 600;
+    color: #141F2B;
+}
+.orders ul li .activeBtn{
+    border-radius: 1rem;
+    border:none;
+    background-color: #336AEA;
+    color: #fff;
+    padding: 0.1rem 2.2rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+.orders ul li .completedBtn{
+    border:none;
+    background-color: transparent;
+    color: #8F92A1;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    font-size: 0.875rem;
+}
+.activeImage img {
+    margin-left: 0.6rem;
+    width: inherit;
+}
+.activeSection {
+    display: flex;
+    width: inherit;
+}
+.propertiesSection {
+    font-size: small;
+    background-color: transparent;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+    border: 1px solid #B3B6DA;
+    width: 26rem;
+    /* max-width: 20vw; */
+    height: 37.5rem;
+}
+.propertiesSection h5 {
+    font-weight: 700;
+}
+.propertiesSection hr {
+    /* position: relative; */
+    /* right: 1.5rem; */
+    /* width: inherit; */
+}
+.propertiesSection span i {
+    color: #FFD748;
+}
+.propertiesSection .details {
+    line-height: 1.9rem;
+}
+.boldText {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.boldText2 {
+    color: #8F92A1;
+    font-weight: 500;
+    line-height: 0.1rem;
+}
+.spaceText1 {
+    font-weight: 500;
+    position: relative;
+    left: 5rem;
+    color: #a3a6ab;
+}
+.spaceText2 {
+    font-weight: 500;
+    position: relative;
+    left: 6.5rem;
+    color: #a3a6ab;
+}
+.spaceText3 {
+    font-weight: 500;
+    position: relative;
+    left: 3.9rem;
+    color: #a3a6ab;
+}
+.spaceText4 {
+    font-weight: 500;
+    position: relative;
+    left: 7.5rem;
+    color: #a3a6ab;
+}
+.spaceText5 {
+    font-weight: 500;
+    position: relative;
+    left: 6.5rem;
+    color: #a3a6ab;
+}
+.spaceText6 {
+    font-weight: 500;
+    position: relative;
+    left: 3.7rem;
+    color: #a3a6ab;
+}
+.spaceText7 {
+    font-weight: 500;
+    position: relative;
+    left: 4.4rem;
+    color: #a3a6ab;
+}
+.spaceText8 {
+    font-weight: 500;
+    position: relative;
+    left: 5.9rem;
+    color: #a3a6ab;
+}
+.spaceText4 button {
+    font-size: 0.7rem;
+    padding: 0rem 0.7rem 0.5rem 0.7rem;
+    border-radius: 1rem;
+    height: 1.6rem;
+    background: #D1EAFF;
+    border:none;
+    color: #336AEA;
+}
+.spaceText4 button i {
+    font-size: 0.5rem;
+    position: relative;
+    bottom: 0.1rem;
+    color: #76BEFE;
+}
+.framImg img {
+    width: 30rem;
+    position: relative;
+    top: 1.5rem;
+    margin-top: -9rem;
+    margin-left: -32rem;
+}
